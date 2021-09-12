@@ -4,15 +4,13 @@
 
 [![NPM](https://nodei.co/npm/moncoin-crypto.png?downloads=true&stars=true)](https://nodei.co/npm/moncoin-crypto/)
 
-![Prerequisite](https://img.shields.io/badge/node-%3E%3D6-blue.svg) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/Kulteam/moncoin-crypto/graphs/commit-activity) [![License: GPL-3.0](https://img.shields.io/badge/License-GPL--3.0-yellow.svg)](https://github.com/Kulteam/moncoin-crypto/blob/master/LICENSE) [![Twitter: TurtlePay](https://img.shields.io/twitter/follow/_TurtleCoin.svg?style=social)](https://twitter.com/_TurtleCoin)
-
 #### Master Build Status
 [![Build Status](https://github.com/Kulteam/moncoin-crypto/workflows/CI%20Build%20Tests/badge.svg?branch=master)](https://github.com/Kulteam/moncoin-crypto/actions)
 
 #### Development Build Status
 [![Build Status](https://github.com/Kulteam/moncoin-crypto/workflows/CI%20Build%20Tests/badge.svg?branch=development)](https://github.com/Kulteam/moncoin-crypto/actions)
 
-This repository contains the necessary files to compile the cryptography library used within [MONCoin](https://turtlecoin.lol) as a standalone library that can be included in various other projects in a variety of development environments, including:
+This repository contains the necessary files to compile the cryptography library used within [MONCoin](https://moncoin.io) as a standalone library that can be included in various other projects in a variety of development environments, including:
 
 * Node.js >= 6.x
 * C++
@@ -77,7 +75,7 @@ cmake ..
 make -j
 ```
 
-The static library will be built as `libturtlecoin-crypto.a` in the build folder.
+The static library will be built as `libmoncoin-crypto.a` in the build folder.
 
 ##### Ubuntu, using Clang
 
@@ -159,7 +157,7 @@ make
 
 The following library files will be created in the `build` folder:
 
-* `libturtlecoin-crypto-static.a`
+* `libmoncoin-crypto-static.a`
 
 #### Windows
 
